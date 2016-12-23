@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="//cdn.bootcss.com/bulma/0.2.3/css/bulma.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/Swiper/3.4.1/css/swiper.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/leaflet/1.0.2/leaflet.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/slider.css">
+    <title>世界歌剧院数据库 - 英国皇家歌剧院</title>
+</head>
+<body>
+    <div class="main-container">
+        <!-- header -->
+        <nav class="nav main-nav">
+            <div class="nav-left">
+                <a class="nav-item" href="#">
+                    <h2>世界歌剧院数据库</h2>
+                </a>
+            </div>
+
+            <div class="nav-right nav-menu">
+                <a class="nav-item" href="./main.html">首页</a>
+                <a class="nav-item" href="./main.html">剧院</a>
+                <a class="nav-item" href="./main.html">剧目</a>
+                <a class="nav-item" href="./main.html">数据</a>
+            </div>
+
+            <span class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </nav>
+
+
+
+        <!-- body -->
+        <section class="main-body">
+
+            <!-- sidebar -->
+            <aside class="sidebar">
+
+                <!-- search box -->
+                <div class="control has-icon search-box">
+                    <input class="input" type="email" placeholder="搜索...">
+                    <i class="fa fa-search"></i>
+                </div>
+
+                <!-- side menu -->
+                <nav class="panel side-menu">
+                    <a class="panel-block is-active" href="./main.html">
+                        <span class="panel-icon"><i class="fa fa-university"></i></span> 剧院简介
+                    </a>
+                    <a class="panel-block" href="#">
+                        <span class="panel-icon"><i class="fa fa-sitemap"></i></span> 组织架构
+                    </a>
+                    <a class="panel-block" href="#">
+                        <span class="panel-icon"><i class="fa fa-cube"></i></span> 演出环境
+                    </a>
+                    <a class="panel-block" href="#">
+                        <span class="panel-icon"><i class="fa fa-money"></i></span> 商业经营
+                    </a>
+                    <a class="panel-block" href="#">
+                        <span class="panel-icon"><i class="fa fa-paint-brush"></i></span> 艺术创作
+                    </a>
+                </nav>
+            </aside>
+            
+            <!-- main-content -->
+            <div class="main-content">
+                <div class="main-title">
+                    <img src="../assets/images/icons/opera_logo.png" alt="logo" class="main-logo">
+                    <h1>英国皇家歌剧院</h1>
+                </div>
+                
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img data-src="../assets/images/opera/opera-01.jpg" class="swiper-lazy">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img data-src="../assets/images/opera/opera-02.jpg" class="swiper-lazy">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img data-src="../assets/images/opera/opera-03.jpg" class="swiper-lazy">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img data-src="../assets/images/opera/opera-04.jpg" class="swiper-lazy">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination swiper-pagination-white"></div>
+                    <!-- Navigation -->
+                    <div class="swiper-button-next swiper-button-white"></div>
+                    <div class="swiper-button-prev swiper-button-white"></div>
+                </div>
+
+                <div class="divider">
+                    <h2>剧院简介</h2>
+                </div>
+
+                <p class="text-content">皇家歌剧院是英国皇家歌剧团、英国皇家芭蕾舞团、皇家歌剧院管弦乐团的表演主场。最开始这里被叫做皇家剧院，在最初的100年里，它只是被当做最基础的演出场地。在1734年，这里出现了第一个芭蕾舞团。一年之后，亨德尔的第一个歌剧演出季在这里开始。亨德尔的许多歌剧及清唱剧被进行了特别的改写并在这里进行了它们的首演。我们现在能看到的这家剧院是在同一地点所建造的第三家剧院，之前的两座分别在1808年以及1856年被大火烧毁了。剧院的正面、门厅以及观众席可以追溯到1858年，但是当前建筑当中其他的部分是在20世纪90年代被扩建的。主演出厅有2256个座位，在伦敦地区位列第三。</p>
+
+                <div class="divider">
+                    <h2>基本信息</h2>
+                </div>
+
+                <div class="basic-info">
+                    <div class="info-column">
+                        <div class="info-item">
+                            <img class="item-icon" src="../assets/images/icons/location.png" alt="">
+                            <div class="item-content">
+                                <h2 class="item-header">剧院名称</h2>
+                                <p class="item-text">英国皇家歌剧院</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <img class="item-icon" src="../assets/images/icons/location.png" alt="">
+                            <div class="item-content">
+                                <h2 class="item-header">经营业态</h2>
+                                <p class="item-text">剧院</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <img class="item-icon" src="../assets/images/icons/location.png" alt="">
+                            <div class="item-content">
+                                <h2 class="item-header">官方网址</h2>
+                                <a class="item-text" href="http://www.roh.org.uk/">http://www.roh.org.uk/</a>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <img class="item-icon" src="../assets/images/icons/location.png" alt="">
+                            <div class="item-content">
+                                <h2 class="item-header">建立时间</h2>
+                                <p class="item-text">1732.12.07 ( 距今 284 年 )</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <img class="item-icon" src="../assets/images/icons/location.png" alt="">
+                            <div class="item-content">
+                                <h2 class="item-header">剧院电话</h2>
+                                <p class="item-text">+44 (20) 7240 1200</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-column">
+                        <div class="info-item">
+                            <img class="item-icon" src="../assets/images/icons/location.png" alt="">
+                            <div class="item-content">
+                                <h2 class="item-header">所在城市</h2>
+                                <p class="item-text">欧洲 > 英国 > 伦敦</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <img class="item-icon" src="../assets/images/icons/location.png" alt="">
+                            <div class="item-content">
+                                <h2 class="item-header">主营业务</h2>
+                                <p class="item-text">歌剧、芭蕾舞、音乐会、场馆租赁</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <img class="item-icon" src="../assets/images/icons/location.png" alt="">
+                            <div class="item-content">
+                                <h2 class="item-header">Operabase 链接</h2>
+                                <a class="item-text" href="http://operabase.com/mkhouse.cgi?lang=en&house=wulor">点击查看</a>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <img class="item-icon" src="../assets/images/icons/location.png" alt="">
+                            <div class="item-content">
+                                <h2 class="item-header">剧院邮箱</h2>
+                                <a class="item-text" href="mailto: Jennifer.Lambert@roh.org.uk">Jennifer.Lambert@roh.org.uk</a>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <img class="item-icon" src="../assets/images/icons/location.png" alt="">
+                            <div class="item-content">
+                                <h2 class="item-header">剧院传真</h2>
+                                <p class="item-text">+44 (20) 7836 1762</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="divider">
+                    <h2>地理位置</h2>
+                </div>
+
+                <div class="map-container">
+                    <div id="map"></div>
+                </div>
+
+                <div class="divider">
+                    <h2>城市环境</h2>
+                </div>
+
+                <p class="text-content">19世纪起，“伦敦”这个名称同时也代表围绕着伦敦市开发的周围地区。这些卫星城市构成了伦敦的都会区和大伦敦。伦敦是一个非常多元化的大都市，其居民来自世界各地，具有多元的种族、宗教和文化；城市中使用的语言超过300种。同时，伦敦还是世界闻名的旅游胜地，拥有数量众多的名胜景点与博物馆等。伦敦是四大世界级城市之一，与美国纽约、日本东京、法国巴黎并列。从1801年到20世纪初，作为世界性帝国——大英帝国的首都，伦敦因在其于政治、经济、人文文化、科技发明等领域上的卓越成就，而成为当时全世界最大的都市。伦敦是欧洲最大的经济中心。金融业是伦敦最重要的经济支柱。
+                </p>
+
+                <h2 class="detail-info">详细信息: </h2>
+                <hr style="margin-bottom: 0">
+
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>城市名称</td>
+                            <td>伦敦</td>
+                        </tr>
+                        <tr>
+                            <td>城市面积</td>
+                            <td>1577, 300, 000</td>
+                        </tr>
+                        <tr>
+                            <td>城市人口（ 2010 年 ）</td>
+                            <td>8, 000, 000</td>
+                        </tr>
+                        <tr>
+                            <td>官方语言</td>
+                            <td>英语</td>
+                        </tr>
+                        <tr>
+                            <td>气候</td>
+                            <td>温带海洋性</td>
+                        </tr>
+                        <tr>
+                            <td>主要名族</td>
+                            <td>英格兰人</td>
+                        </tr>
+                        <tr>
+                            <td>主要宗教</td>
+                            <td>天主教</td>
+                        </tr>
+                        <tr>
+                            <td>城市生产总值 ( 2013 年 )</td>
+                            <td>5535 亿美元</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </section>
+    </div>
+
+    <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/Swiper/3.4.1/js/swiper.jquery.js"></script>
+    <script src="//cdn.bootcss.com/leaflet/1.0.2/leaflet.js"></script>
+    <script src="../assets/js/map.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
