@@ -29,6 +29,61 @@ body {
     padding-top: 30px;
 }
 
+.app-header {
+    padding: 0.8rem 0;
+    background-image: -webkit-linear-gradient(309deg, #13bfdf 0%, #42afe3 71%, #53a1eb 100%);
+    background-image: -o-linear-gradient(309deg, #13bfdf 0%, #42afe3 71%, #53a1eb 100%);
+    background-image: linear-gradient(141deg, #13bfdf 0%, #42afe3 71%, #53a1eb 100%);
+}
+
+/* custom menu */
+.app-header .nav-item {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.app-header .nav-item:hover {
+    color: #fff;
+}
+
+.app-header .nav-item.is-active {
+    color: #fff;
+}
+
+.app-header .nav-item img {
+    max-height: 32px;
+}
+
+.app-header .button {
+    padding: 14px;
+}
+
+.app-header .nav-toggle span {
+    background-color: #fff;
+}
+
+.app-header .nav-toggle:hover {
+    background-color: #0E7AC5;
+}
+
+/* for mobile */
+@media (max-width: 768px) {
+    .app-header {
+        z-index: 1001;
+    }
+
+    .app-header .main-logo {
+        margin-left: 10px;
+    }
+
+    .app-header .nav-right.is-active .nav-item {
+        background-color: #20A3D4;
+    }
+
+    .app-header .nav-right.is-active .nav-item .button{
+        margin-right: 10px;
+    }
+}
+
 /* header */
 .main-nav {
     padding: 0 40px;
@@ -123,10 +178,12 @@ body {
 }
 
 .main-content .divider {
-    background-color: #0091EA;
     height: 32px;
     margin-bottom: 30px;
     padding: 4px 12px;
+    background-image: -webkit-linear-gradient(309deg, #13bfdf 0%, #42afe3 71%, #53a1eb 100%);
+    background-image: -o-linear-gradient(309deg, #13bfdf 0%, #42afe3 71%, #53a1eb 100%);
+    background-image: linear-gradient(141deg, #13bfdf 0%, #42afe3 71%, #53a1eb 100%);
 }
 
 .main-content .divider h2 {
