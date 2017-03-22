@@ -1,5 +1,6 @@
 # CHNCPA Operadb project single page demo
 
-### Screenshot
+This demo screenshot is show below:
 
 ![Screenshot](screenshot.png)
+
