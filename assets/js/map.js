@@ -1,6 +1,6 @@
 // Mapbox token setting
 var mapbox_id = "mapbox.streets"
-var mapbox_token="pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw"
+var mapbox_token="pk.eyJ1IjoicGxheW5pdW5pdSIsImEiOiJjOWMyYjA3MTU1MDFmMWM1OTM2OTM5YzczODRkM2U0NSJ9.OC4GhScXX0FqODs-2_vSuw"
 
 function display_leaflet_map() {
     // Init view location and view level
